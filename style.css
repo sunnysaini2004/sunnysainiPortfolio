@@ -174,9 +174,10 @@ nav {
 }
 
 .N-hamburger {
+
     cursor: pointer;
-    background-color: rgb(10, 10, 10);
-    color: #fffefe;
+    background-color: rgb(245, 242, 242);
+    color: #020116;
     text-align: right;
     transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
     display: none;
@@ -184,8 +185,8 @@ nav {
 
 .N-hamburger:hover {
     transform: scale(1.1);
-    background-color: rgb(255, 246, 246);
-    color: #000000;
+    background-color: rgb(238, 191, 191);
+    color: #0711a3;
     /* display: none; */
 }
 
@@ -204,8 +205,10 @@ nav {
 
 .C-hamburger {
     cursor: pointer;
-    background-color: rgb(10, 10, 10);
-    color: #fffefe;
+    background-color: rgb(245, 242, 242);
+
+    color: #020116;
+
     text-align: right;
     transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
     display: none;
@@ -213,8 +216,8 @@ nav {
 
 .C-hamburger:hover {
     transform: scale(1.1);
-    background-color: rgb(255, 246, 246);
-    color: #000000;
+   background-color: rgb(238, 191, 191);
+    color: #0711a3;
     /* display: none; */
 }
 
