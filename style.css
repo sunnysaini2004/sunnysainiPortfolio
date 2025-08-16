@@ -288,7 +288,7 @@ main {
 
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         /* overlay */
-        url("/Images/backGroundImg.jpg") no-repeat center center/cover;
+        url("Images/backGroundImg.jpg") no-repeat center center/cover;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
