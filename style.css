@@ -216,7 +216,7 @@ nav {
 
 .C-hamburger:hover {
     transform: scale(1.1);
-   background-color: rgb(238, 191, 191);
+    background-color: rgb(238, 191, 191);
     color: #0711a3;
     /* display: none; */
 }
@@ -676,7 +676,9 @@ main {
         display: flex;
         flex-direction: column;
         gap: 20px;
+
     }
+
 
     .skillFull {
         width: 100%;
@@ -865,7 +867,7 @@ main {
 
     .skillsSection {
 
-        margin: 0;
+        margin: var(--primary-margin);
 
     }
 }
@@ -967,7 +969,7 @@ main {
 
     box-shadow: 3px 0px 20px 11px rgba(0, 0, 0, 0.2);
     background-color: #ffffff;
-    height: 90vh;
+    height: 100vh;
     width: 45%;
     display: flex;
     flex-direction: column;
@@ -1034,7 +1036,7 @@ main {
 .formContainer {
     box-shadow: 3px 0px 20px 11px rgba(0, 0, 0, 0.2);
     background-color: #ffffff;
-    height: 90vh;
+    height: 100vh;
     width: 70%;
     padding: 2rem 1rem 2rem 1rem;
     overflow: hidden;
@@ -1058,7 +1060,7 @@ main {
 .nameInput input,
 .emailInput input {
     width: 17rem;
-    height: 2rem;
+    min-height: 2rem;
 }
 
 .subjectInput {
@@ -1067,7 +1069,7 @@ main {
 
 .subjectInput input {
     width: 100%;
-    height: 2rem;
+    min-height: 2.5rem;
     font-family: var(--paragraph-font-family);
     padding: 0 0 0 0.5rem;
     font-size: 1rem;
@@ -1134,6 +1136,14 @@ main {
         flex-direction: column;
     }
 
+    /* .userDetail input {
+        font-family: var(--paragraph-font-family);
+        padding: 0 0 0 0.5rem;
+        font-size: 0.9rem;
+    } */
+
+
+
     .address {
 
         box-shadow: 20px 1px 20px 6px rgba(0, 0, 0, 0.2);
@@ -1156,26 +1166,48 @@ main {
 
     }
 
-    .userDetail {
+    .userDetail,
+    .subjectInput,
+    .messageArea {
         display: flex;
         flex-direction: column;
+        margin: 0rem 1rem 3rem 1rem;
         justify-content: space-between;
+    }
+
+    .emailLabel {
+        margin: 1rem 0;
     }
 
 }
 
-@media (min-width: 768px) and (max-width: 1060px) {
+@media (max-width: 768px) {
 
-
-    .formContainer {
-        box-shadow: 20px 1px 20px 6px rgba(0, 0, 0, 0.2);
-        background-color: #ffffff;
-        height: 100vh;
-        width: 100%;
-        padding: 2rem 1.5rem 2rem 1rem;
-        overflow: hidden;
-
+    .userDetail,
+    .subjectInput,
+    .messageArea {
+        display: flex;
+        flex-direction: column;
+        margin: 0rem 0rem 0rem 0rem;
+        justify-content: space-between;
     }
+
+    .userDetail input {
+
+        min-height: 2.5rem;
+    }
+
+    .messageArea {
+        height: 15rem;
+    }
+
+    .messageAreaLabel {
+        margin: 3rem 0 0rem 0;
+    }
+
+
+
+
 
 }
 
@@ -1236,3 +1268,38 @@ footer {
     }
 
 }
+
+/* Error messages - hidden by default */
+.error-message,
+.error-subject,
+.error-name,
+.error-email {
+    color: #8b0505;
+    font-size: 0.75rem;
+    display: none;
+    margin-top: 5px;
+}
+
+/* Result message hidden */
+.resultForm {
+    display: none;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+
+/* Show when active */
+.activeMessage {
+    display: block;
+}
+
+.activeResultMessage {
+    display: block;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* 
+ (error) => {
+                alert("❌ Failed to send message: " + JSON.stringify(error));
+            }); */

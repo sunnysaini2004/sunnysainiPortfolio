@@ -131,6 +131,7 @@
 
                     </div>
                     <div class="formContainer">
+
                         <form class="form" id="form" action="#">
 
                             <div class="userDetail">
@@ -139,6 +140,7 @@
 
                                     <div class="nameInput">
                                         <input id="userName" name="userName" type="text" />
+                                        <p id="errorName" class="error-name">❌ Invalid Name. Please try again.</p>
                                     </div>
                                 </div>
 
@@ -146,7 +148,8 @@
                                     <label for="userEmail">Email</label>
 
                                     <div class="emailInput">
-                                        <input id="userEmail" name="userEmail" type="email" />
+                                        <input id="userEmail" name="userEmail" type="text"  />
+                                        <p id="errorEmail" class="error-email">❌ Invalid Email. Please try again.</p>
                                     </div>
                                 </div>
                             </div>
@@ -157,6 +160,7 @@
                                     <label for="subject"> Subject</label>
                                 </div>
                                 <input id="subject" name="subject" type="text" />
+                                <p id="errorSubject" class="error-subject">❌ Invalid Subject. Please try again.</p>
                             </div>
 
                             <div class="messageArea">
@@ -164,10 +168,13 @@
                                     <label for="message">Message</label>
                                 </div>
                                 <textarea id="messageTextArea" name="message"></textarea>
+                                <p id="errorMessage" class="error-message">❌ Invalid Message. Please try again.</p>
                             </div>
 
                             <div class="btn">
                                 <button>Send Message</button>
+
+                                <p id="resultFormSubmit" class="resultForm">✔️Message Sent</p>
                             </div>
                         </form>
 
