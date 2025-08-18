@@ -424,6 +424,20 @@ main {
     padding: var(--primary-padding);
     display: flex;
     max-height: 100vh;
+
+
+
+
+    background: #ffffff;
+
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease-in-out;
+
+
+}
+
+.aboutBioSection:hover {
+    transform: translateY(-5px);
 }
 
 .bioPicture {
@@ -437,7 +451,12 @@ main {
     object-fit: cover;
     width: 100%;
     height: 100%;
+
 }
+
+
+
+
 
 .bioContent h1 {
     padding: 0 0 1rem 0;
@@ -583,109 +602,7 @@ main {
 
 
 
-.allSkillSection {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    /* two equal columns */
-    gap: 20px;
-    /* space between columns */
-}
 
-
-
-
-.allSkillSection .skill-right,
-.skill-left {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-
-
-
-.skillFull {
-    width: 100%;
-    background-color: #dfe5e7;
-    height: 2vh;
-}
-
-/* Skills Progress Bar */
-.skillProgressBar-1 {
-    width: 50%;
-    background-color: var(--progress-bar-color);
-    height: 100%;
-}
-
-.skillProgressBar-2 {
-    width: 25%;
-    background-color: var(--progress-bar-color);
-    height: 100%;
-}
-
-.skillProgressBar-3 {
-    width: 15%;
-    background-color: var(--progress-bar-color);
-    height: 100%;
-}
-
-.skillProgressBar-4 {
-    width: 85%;
-    background-color: var(--progress-bar-color);
-    height: 100%;
-}
-
-.skillProgressBar-5 {
-    width: 98%;
-    background-color: var(--progress-bar-color);
-    height: 100%;
-}
-
-.skillProgressBar-6 {
-    width: 90%;
-    background-color: var(--progress-bar-color);
-    height: 100%;
-}
-
-.skillProgressBar-7 {
-    width: 90%;
-    background-color: var(--progress-bar-color);
-    height: 100%;
-}
-
-.skillProgressBar-8 {
-    width: 65%;
-    background-color: var(--progress-bar-color);
-    height: 100%;
-}
-
-
-
-.skillName-Percent {
-    font-size: 0.8999rem;
-    color: #030303;
-    font-weight: 400;
-    line-height: 2rem;
-    display: flex;
-    font-family: Roboto;
-    justify-content: space-between;
-}
-
-@media (max-width: 767.98px),
-(min-width: 768px) and (max-width: 1060px) {
-    .allSkillSection {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-
-    }
-
-
-    .skillFull {
-        width: 100%;
-        background-color: #dfe5e7;
-        height: 1vh;
-    }
-}
 
 /*  Resume Section */
 :root {
@@ -710,160 +627,327 @@ main {
     font-weight: var(--primary-font-weight);
 }
 
-.resumeHeaderText p {
-    font-size: var(--paragraph-font-size);
+/* Resume Section */
+.resume {
+    padding: var(--primary-padding);
+    background: #f9f9f9;
+}
+
+.resumeContent {
+    max-width: 1000px;
+    margin: var(--primary-margin);
+}
+
+.resume h1 {
+    font-size: 2.2rem;
+
+    color: #0b0b0c;
+}
+
+
+.resumeItem {
+    margin-bottom: 2.5rem;
+    padding: 1.5rem;
+    background: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease-in-out;
+}
+
+.resumeItem:hover {
+    transform: translateY(-5px);
+}
+
+.resumeItem h2 {
+    font-size: 1.5rem;
+    color: #282696;
+    margin-bottom: 1rem;
+    border-left: 4px solid #5a57ff;
+    padding-left: 0.7rem;
+}
+
+.technicalSkill h3 {
+    font-weight: 400;
+}
+
+.resumeItem p {
     font-family: var(--paragraph-font-family);
-    font-weight: var(--paragraph-font-weight);
-    line-height: var(--paragraph-line-height);
+    color: #444;
+    line-height: var(--resume-paragraph-line-height);
+    padding-left: 2rem;
 }
 
-.resumeUserName h2 {
-    font-family: var(--primary-font-family);
-    font-weight: var(--primary-font-weight);
-    font-size: var(--section-header-font-size);
-    padding: var(--resume-top-bottom-padding);
-    color: var(--resume-header-font-color);
-
+.resumeItem ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1rem;
 }
 
-.big-line-1 {
-    margin: 0.5rem 0 2rem 0;
-    width: 100%;
-    height: 0.1vh;
-    background-color: #6969e4;
-}
-
-
-.resumeUserName p {
-    font-family: var(--paragraph-font-family);
-    font-weight: var(--paragraph-font-weight);
-    padding: 0 0 1rem 0;
-}
-
-.big-line-2 {
-    margin: 0 0 0.3rem 0;
-    width: 100%;
-    height: 0.1vh;
-    background-color: #6969e4;
-}
-
-.resumeLinks ul {
-    padding: 0 0 2rem 0;
+.resumeItem ul li {
+    margin: 0.6rem 0;
+    font-size: 1rem;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    color: #333;
 }
 
-.resumeLinks ul a {
-    font-size: 1.5rem;
-    line-height: 3rem;
-    text-decoration: none;
-    transition: width 0.4s ease, background-color 0.4s ease;
-}
-
-
-.resumeLinks ul a:hover {
-    color: #201f44;
-}
-
-.resumeSkills h3 {
-    font-family: var(--primary-font-family);
-    font-weight: var(--primary-font-weight);
-    font-size: var(--section-header-font-size);
-    color: var(--resume-header-font-color);
-    padding: var(--resume-top-bottom-padding);
-}
-
-.resumeSkills ul {
-    font-family: var(--paragraph-font-family);
-    font-weight: var(--paragraph-font-weight);
-    list-style: none;
-    line-height: var(--resume-paragraph-line-height);
+.resumeItem ul li::before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    /* solid style */
+    /* content: "\f105"; */
+    /* fa-angle-right */
+    color: #5a57ff;
+    display: inline;
+    width: 1rem;
 }
 
 
-
-.resumeEducation h3 {
-    color: var(--resume-header-font-color);
-    padding: var(--resume-top-bottom-padding);
-    font-size: var(--section-header-font-size);
-}
-
-.resumeEducation ul {
-    font-size: var(--paragraph-font-size);
-    list-style: none;
-    font-family: var(--paragraph-font-family);
-    font-weight: var(--paragraph-font-weight);
-    line-height: var(--resume-paragraph-line-height);
-
-}
-
-.collegeName,
-.completedYear {
+.resumeItem h3 {
+    font-size: 1.2rem;
     font-weight: 600;
-    font-style: italic;
+    color: #111;
+    margin-bottom: 0.3rem;
 }
 
-.strength h3 {
-
-    color: var(--resume-header-font-color);
-    padding: var(--resume-top-bottom-padding);
-    font-size: var(--section-header-font-size);
-
+.resumeItem span {
+    display: block;
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 0.8rem;
 }
 
-.strength ul {
-    list-style: none;
-    line-height: var(--resume-paragraph-line-height);
-    font-family: var(--paragraph-font-family);
-    font-weight: var(--paragraph-font-weight);
-    font-size: var(--paragraph-font-size);
+/* Download Button */
+.downloadBtn {
+    text-align: center;
+    margin-top: 2rem;
 }
 
-/* Resume Download Button */
-.origanlResumeLink a {
+.downloadBtnLink {
+    background: #5a57ff;
+    color: #fff;
+    padding: 0.9rem 2rem;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 500;
     text-decoration: none;
-    color: var(--secondary-text-color);
-    transition: width 0.4s ease, background-color 0.4s ease;
-
-}
-
-.origanlResumeLink {
-    display: flex;
-    justify-content: center;
+    transition: background 0.3s ease-in-out;
+    display: inline-flex;
     align-items: center;
-    height: 3rem;
-    width: 12rem;
-    border-radius: 3rem;
-    background-color: rgb(40, 2, 129);
-    padding: var(--resume-top-bottom-padding);
-    margin: 2rem 0 2rem 0;
-    transition: width 0.4s ease, background-color 0.4s ease;
-
+    gap: 0.5rem;
 }
 
-.origanlResumeLink:hover {
-    background-color: #7f4ff0;
-
-
+.downloadBtnLink:hover {
+    background: #282696;
 }
 
-.origanlResumeLink a:hover {
+.technicalSkill span {
+    font-family: var(--paragraph-font-family);
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0.5rem 0 0 1.89rem;
     color: #000000;
-    font-weight: 600;
+}
+
+.resumeItem ul a {
+    padding-top: 0;
+    margin-top: 0;
+    padding-left: 5rem;
+    text-decoration: none;
+    gap: 0;
+    transition: color 0.3s ease
+}
+
+#project ul li {
+    gap: 0;
+
+
+}
+
+.resumeItem ul a:hover {
+    text-decoration: underline;
+    color: #000e3d;
+}
+
+.strengths h3 {
+    font-family: var(--paragraph-font-family);
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0.5rem 0 0 1.89rem;
+    color: #000000;
+
 }
 
 /* Resume Responsiveness */
-@media (max-width: 767.98px),
-(min-width: 768px) and (max-width: 1060px) {
+/* Resume Responsiveness */
+/* Mobile First (up to 767px) */
+/* Mobile First (up to 767px) */
+@media (max-width: 767px) {
     .resume {
-        /* padding: var(--primary-padding); */
-        margin: var(--primary-margin);
+        padding: 2rem 5%;
+    }
+
+    .skillsSection {
+        margin: 0;
+    }
+
+    .resumeContent {
+        padding: 0;
+        margin: 0;
+    }
+
+    .resume h1 {
+        font-size: 1.8rem;
+    }
+
+    .resumeItem {
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .resumeItem h2 {
+        font-size: 1.2rem;
+    }
+
+    .resumeItem h3 {
+        font-size: 1rem;
+    }
+
+    .resumeItem ul li {
+        font-size: 0.9rem;
+    }
+
+    .resumeItem p {
+        font-size: 0.9rem;
+        line-height: 1.4;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    /* ✅ Project Links on Mobile */
+    .resumeItem a {
+        display: block;
+        margin: 0.3rem 0;
+        font-size: 0.9rem;
+        color: #ececf0;
+        text-decoration: none;
+        white-space: nowrap;
+        position: relative;
+        transition: color 0.3s ease;
+    }
+
+    .resumeItem a::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        width: 0%;
+        height: 2px;
+        background-color: #5a57ff;
+        transition: width 0.3s ease;
+    }
+
+    .resumeItem a:hover {
+        color: #282696;
+    }
+
+    .resumeItem a:hover::after {
+        width: 100%;
+    }
+
+    .downloadBtnLink {
+        font-size: 0.9rem;
+        padding: 0.7rem 1.5rem;
+    }
+
+    .resumeItem span {
+        padding-left: 2rem;
+    }
+
+    .strengths h3 {
+        padding: 0;
+    }
+
+    .fa-download {
+        color: #ececf0;
+    }
+}
+
+/* Tablets (768px – 1060px) */
+@media (min-width: 768px) and (max-width: 1060px) {
+    .resume {
+        padding: 3rem 6%;
     }
 
     .resumeContent {
         margin: 0;
         padding: 0;
     }
+
+    .resume h1 {
+        font-size: 2rem;
+    }
+
+    .resumeItem {
+        padding: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .resumeItem h2 {
+        font-size: 1.4rem;
+    }
+
+    .resumeItem ul li {
+        font-size: 1rem;
+    }
+
+    .resumeItem p {
+        font-size: 0.95rem;
+        line-height: 1.5;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    /* ✅ Project Links on Tablet */
+    .resumeItem a {
+        display: inline-block;
+        margin: 0.3rem 0.5rem 0 0;
+        font-size: 0.95rem;
+        color: #5a57ff;
+        text-decoration: none;
+        white-space: nowrap;
+        position: relative;
+        transition: color 0.3s ease;
+    }
+
+    .resumeItem a::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        width: 0%;
+        height: 2px;
+        background-color: #5a57ff;
+        transition: width 0.3s ease;
+    }
+
+    .resumeItem a:hover {
+        color: #282696;
+    }
+
+    .resumeItem a:hover::after {
+        width: 100%;
+    }
+}
+
+
+/* Large Screens (default >1060px) already handled in base CSS */
+
+/* for tab */
+@media (min-width: 768px) and (max-width: 1060px) {
+
 
     .skillsSection {
 
@@ -1299,7 +1383,61 @@ footer {
     text-align: center;
 }
 
-/* 
- (error) => {
-                alert("❌ Failed to send message: " + JSON.stringify(error));
-            }); */
+
+
+/* Updated Style Skill Section Skill Section */
+
+.skillsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.skillsCategory {
+    background: #ffffff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.skillsCategory:hover {
+    transform: translateY(-5px);
+}
+
+.skillsCategory h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #3848da;
+}
+
+.skillsCategory ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skillsCategory li {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: 1rem;
+    margin: 0.7rem 0;
+    color: #0c0c0c;
+}
+
+.skillsCategory li i {
+    font-size: 1.2rem;
+    color: #06060a;
+}
+
+.level {
+    margin-left: auto;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #666;
+}
+
+.fa-download {
+    color: #ececf0;
+}
