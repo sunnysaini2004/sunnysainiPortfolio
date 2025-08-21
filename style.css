@@ -831,7 +831,7 @@ main {
         display: block;
         margin: 0.3rem 0;
         font-size: 0.9rem;
-        color: #47479b;
+        color: #f0caca;
         text-decoration: none;
         white-space: nowrap;
         position: relative;
@@ -840,7 +840,7 @@ main {
 
    
     .resumeItem a:hover {
-        color: #282696;
+        color: #ffffff;
     }
 
     
