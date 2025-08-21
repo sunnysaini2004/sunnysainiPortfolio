@@ -757,7 +757,8 @@ main {
     padding-left: 5rem;
     text-decoration: none;
     gap: 0;
-    transition: color 0.3s ease
+    transition: color 0.3s ease;
+    
 }
 
 #project ul li {
@@ -831,7 +832,7 @@ main {
         display: block;
         margin: 0.3rem 0;
         font-size: 0.9rem;
-        color: #f0caca;
+        color: #070ae9;
         text-decoration: none;
         white-space: nowrap;
         position: relative;
