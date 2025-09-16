@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&family=Roboto:wght@100..900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="NormalHamBurgerMenu">
+        <button class="N-hamburger" id="Nhamburger">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <!-- Hamburger menu -->
+    </div>
+    <div class="CrossHamBurgerMenu">
+        <button class="C-hamburger" id="Chamburger">
+            <i class="fa-solid fa-square-xmark"></i>
+        </button>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <!-- Hamburger Menu -->
+
+        <!-- Navigation Section -->
+        <nav>
+            <div class="navHeader">
+                <div class="profilePic">
+                    <img src="Images/profilePic.jpg" alt="" srcset="" />
+                </div>
+                <h1>Sunny Saini</h1>
+            </div>
+            <!-- Social Media Section -->
+            <div class="socialMediaSection">
+                <ul>
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/sunnysaini2004/">
+                            <i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://github.com/sunnysaini2004"><i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.instagram.com/sunny_sainiji/"><i
+                                class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://x.com/Sunny_Saini2004">
+                            <i class="fa-brands fa-x-twitter"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Navigation Section -->
+            <div class="navigationLinks">
+                <ul>
+                    <li>
+                        <a href="index.html"><i class="fa-regular fa-house"></i>Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html"><i class="fa-solid fa-address-card"></i>About Me</a>
+                    </li>
+                    <li>
+                        <a href="resume.html"><i class="fa-solid fa-file"></i>Resume</a>
+                    </li>
+                    <li>
+                        <a href="projects.html"><i class="fa-solid fa-diagram-project"></i>Projects</a>
+                    </li>
+                    <li>
+                        <a href="contact.html"><i class="fa-solid fa-envelope"></i>Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Main Content -->
+    <main>
+        <!-- Contact Section -->
+        <!-- Contact Section -->
+
+        <section class="contact">
+            <div class="contactContent">
+                <div class="contactHeader">
+                    <h3>Contact</h3>
+                    <div class="small-line"></div>
+                    <p>If my portfolio resonates with you, I’d be truly excited to connect. You’re welcome to reach out
+                        anytime via email or phone. I’m deeply passionate about learning, growing, and bringing ideas to
+                        life as meaningful, real-world projects — and I’d love the opportunity to share that passion
+                        with
+                        you.</p>
+                </div>
+
+                <div class="addressAndContactForm">
+
+                    <div class="address">
+
+
+                        <div class="address1  dAddress">
+                            <div class="i"> <i class="fa-solid fa-location-dot"></i></div>
+
+                            <div class="insideAddress">
+                                <h1> Address </h1>
+                                <p>Hapur UP India</p>
+                            </div>
+                        </div>
+
+                        <div class="address2  dAddress">
+                            <div class="i"> <i class="fa-solid fa-phone"></i></div>
+                            <div class="insideAddress">
+                                <h1> Phone </h1>
+                                <p>+91-9520003363</p>
+                            </div>
+                        </div>
+
+                        <div class="address3  dAddress">
+                            <div class="i"> <i class="fa-solid fa-envelope"></i></div>
+                            <div class="insideAddress">
+                                <h1> Email </h1>
+                                <p>sunnysaini2004@gmail.com</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="formContainer">
+
+                        <form class="form" id="form" action="#">
+
+                            <div class="userDetail">
+                                <div class="nameLabel">
+                                    <label for="userName">Name</label>
+
+                                    <div class="nameInput">
+                                        <input id="userName" name="userName" type="text" />
+                                        <p id="errorName" class="error-name">❌ Invalid Name. Please try again.</p>
+                                    </div>
+                                </div>
+
+                                <div class="emailLabel">
+                                    <label for="userEmail">Email</label>
+
+                                    <div class="emailInput">
+                                        <input id="userEmail" name="userEmail" type="text" />
+                                        <p id="errorEmail" class="error-email">❌ Invalid Email. Please try again.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="subjectInput">
+                                <div class="subjectLabel">
+                                    <label for="subject"> Subject</label>
+                                </div>
+                                <input id="subject" name="subject" type="text" />
+                                <p id="errorSubject" class="error-subject">❌ Invalid Subject. Please try again.</p>
+                            </div>
+
+                            <div class="messageArea">
+                                <div class="messageAreaLabel">
+                                    <label for="message">Message</label>
+                                </div>
+                                <textarea id="messageTextArea" name="message"></textarea>
+                                <p id="errorMessage" class="error-message">❌ Invalid Message. Please try again.</p>
+                            </div>
+
+                            <div class="btn">
+                                <button>Send Message</button>
+
+                                <p id="resultFormSubmit" class="resultForm">✔️Message Sent</p>
+                            </div>
+                        </form>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <!-- Footer -->
+        <footer>
+            <div class="footerClass">
+                <h1> © 2025 Sunny Saini. All rights reserved.</h1>
+            </div>
+        </footer>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
