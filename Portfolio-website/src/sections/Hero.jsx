@@ -1,5 +1,5 @@
 
-import heroImage from "../assets/IMG_0274~3.jpg";
+import heroImage from "../assets/hero.png";
 
 const technologies = ["React.js", "Tailwind CSS", "JavaScript"];
 
@@ -81,7 +81,7 @@ function ProfileCard() {
           loading="eager"
           fetchPriority="high"
           decoding="async"
-          className="aspect-[5/4] w-full object-cover object-center"
+          className="aspect-5/4 w-full object-cover object-center"
         />
       </div>
 
