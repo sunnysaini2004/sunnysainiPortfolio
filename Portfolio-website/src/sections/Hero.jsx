@@ -3,7 +3,7 @@ import heroImage from "../assets/hero.png";
 
 const technologies = ["React.js", "Tailwind CSS", "JavaScript"];
 
-// Replace the placeholder social URLs with your actual profiles.
+// Keep social links together so their labels, icons, and URLs stay consistent.
 const socialLinks = [
   {
     label: "GitHub",
@@ -16,9 +16,9 @@ const socialLinks = [
     icon: "linkedin",
   },
   {
-    label: "Instagram",
-    href: "https://www.instagram.com/",
-    icon: "instagram",
+    label: "X (Twitter)",
+    href: "https://x.com/Sunny_Saini2004",
+    icon: "x",
   },
   {
     label: "Email",
@@ -38,7 +38,12 @@ function SocialIcon({ name }) {
 
   if (name === "github") {
     return (
-      <svg viewBox="0 0 24 24" className="h-4 w-4" fill="currentColor" aria-hidden="true">
+      <svg
+        viewBox="0 0 24 24"
+        className="h-4 w-4"
+        fill="currentColor"
+        aria-hidden="true"
+      >
         <path d="M12 .9a11.1 11.1 0 0 0-3.5 21.63c.55.1.76-.24.76-.53v-2.07c-3.1.67-3.76-1.32-3.76-1.32-.5-1.28-1.23-1.62-1.23-1.62-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15.99 1.7 2.59 1.21 3.22.92.1-.72.39-1.21.7-1.49-2.47-.28-5.06-1.24-5.06-5.5 0-1.22.44-2.21 1.15-2.99-.12-.28-.5-1.42.11-2.95 0 0 .94-.3 3.06 1.14a10.7 10.7 0 0 1 5.57 0c2.12-1.44 3.06-1.14 3.06-1.14.61 1.53.23 2.67.11 2.95.72.78 1.15 1.77 1.15 2.99 0 4.27-2.59 5.21-5.07 5.49.4.35.75 1.02.75 2.06V22c0 .29.2.63.77.53A11.1 11.1 0 0 0 12 .9Z" />
       </svg>
     );
@@ -46,24 +51,37 @@ function SocialIcon({ name }) {
 
   if (name === "linkedin") {
     return (
-      <svg viewBox="0 0 24 24" className="h-4 w-4" fill="currentColor" aria-hidden="true">
+      <svg
+        viewBox="0 0 24 24"
+        className="h-4 w-4"
+        fill="currentColor"
+        aria-hidden="true"
+      >
         <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.67H9.36V9h3.42v1.56h.05a3.75 3.75 0 0 1 3.37-1.85c3.6 0 4.25 2.37 4.25 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 .02-4.12 2.06 2.06 0 0 1-.02 4.12ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.78C.8 0 0 .77 0 1.73v20.54C0 23.23.8 24 1.78 24h20.44c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z" />
       </svg>
     );
   }
 
-  if (name === "instagram") {
+  if (name === "x") {
     return (
-      <svg viewBox="0 0 24 24" className="h-4 w-4" {...commonProps} aria-hidden="true">
-        <rect x="3" y="3" width="18" height="18" rx="5" />
-        <circle cx="12" cy="12" r="4" />
-        <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
+      <svg
+        viewBox="0 0 24 24"
+        className="h-4 w-4"
+        fill="currentColor"
+        aria-hidden="true"
+      >
+        <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.635 7.584H.477l8.6-9.83L0 1.153h7.594l5.243 6.932zm-1.291 19.493h2.039L6.486 3.242H4.298z" />
       </svg>
     );
   }
 
   return (
-    <svg viewBox="0 0 24 24" className="h-4 w-4" {...commonProps} aria-hidden="true">
+    <svg
+      viewBox="0 0 24 24"
+      className="h-4 w-4"
+      {...commonProps}
+      aria-hidden="true"
+    >
       <rect x="3" y="5" width="18" height="14" rx="2" />
       <path d="m4 7 8 6 8-6" />
     </svg>
@@ -167,7 +185,10 @@ function Hero() {
               className="group inline-flex items-center gap-2.5 rounded-full bg-(--color-warm-ivory) px-4.5 py-3 text-xs font-semibold text-(--color-obsidian) transition-colors hover:bg-(--color-silver-sage) sm:px-5 sm:py-3.5 sm:text-sm"
             >
               Explore my work
-              <span aria-hidden="true" className="transition-transform group-hover:translate-x-1">
+              <span
+                aria-hidden="true"
+                className="transition-transform group-hover:translate-x-1"
+              >
                 ↗
               </span>
             </a>
@@ -182,7 +203,9 @@ function Hero() {
 
           {/* Technology tags wrap naturally on narrow screens. */}
           <div className="mt-7 flex flex-wrap items-center gap-2.5 text-xs text-(--color-silver-sage) sm:mt-9 sm:gap-3">
-            <span className="mr-1 uppercase tracking-widest">Building with</span>
+            <span className="mr-1 uppercase tracking-widest">
+              Building with
+            </span>
 
             {technologies.map((technology) => (
               <span
