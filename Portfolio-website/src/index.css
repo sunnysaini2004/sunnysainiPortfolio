@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+
+/* Forest Noir — shared color tokens for the entire portfolio. */
+:root {
+  color-scheme: dark;
+
+  --color-obsidian: #0B0F0C;
+  --color-deep-forest: #13251B;
+  --color-forest-green: #234A36;
+  --color-moss-grey: #687A61;
+  --color-silver-sage: #AEB7B0;
+  --color-warm-ivory: #F2EFE6;
+}
+
+
+  
+/* A slightly more compact scale for the overall portfolio. */
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+  
+}
+
+
+
+body {
+  background-color: var(--color-obsidian);
+  color: var(--color-warm-ivory);
+}
+
+/* Keep text selection consistent with the Forest Noir theme. */
+::selection {
+  background-color: var(--color-forest-green);
+  color: var(--color-warm-ivory);
+}
