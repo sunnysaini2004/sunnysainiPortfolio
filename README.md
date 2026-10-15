@@ -1,19 +1,19 @@
 
 <div align="center">
 
-# 🌲 Sunny Saini | Developer Portfolio
+# 🌲 Sunny Saini — Developer Portfolio
 
 ### Building ideas into digital experiences.
 
-A modern, responsive portfolio built with React, Tailwind CSS, and Vite — featuring a minimalist **Forest Noir** design, selected projects, technical skills, and an interactive contact form.
+A modern, responsive personal portfolio built with React.js, Tailwind CSS, and Vite, featuring a minimal **Forest Noir** design.
 
 <br />
 
-<a href="https://sunnysaini-portfolio-git-main-sunny-264f.vercel.app/">
-  <img src="https://img.shields.io/badge/🌐_Live_Portfolio-Visit_Website-234A36?style=for-the-badge" alt="Visit Live Portfolio" />
+<a href="https://sunny-portfolio-nine.vercel.app/">
+  <img src="https://img.shields.io/badge/🌐_Live_Portfolio-Visit_Website-234A36?style=for-the-badge" alt="Live Portfolio" />
 </a>
 <a href="https://github.com/sunnysaini2004/sunnysainiPortfolio">
-  <img src="https://img.shields.io/badge/GitHub-Repository-0B0F0C?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository" />
+  <img src="https://img.shields.io/badge/GitHub-Source_Code-0B0F0C?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository" />
 </a>
 
 <br /><br />
@@ -29,58 +29,58 @@ A modern, responsive portfolio built with React, Tailwind CSS, and Vite — feat
 
 ---
 
-## ✨ About the Project
+## ✨ About the Portfolio
 
-This is my personal developer portfolio, created to showcase my projects, technical skills, academic journey, and approach to building web experiences.
+My personal developer portfolio is designed to showcase my technical skills, development approach, academic journey, and selected work in one place.
 
-The portfolio started as a basic HTML, CSS, and JavaScript project. As I progressed with React, I rebuilt it using reusable components, responsive layouts, and a more refined visual design.
+Originally started as a basic HTML, CSS, and JavaScript website, the portfolio has evolved into a React-based application with reusable components, responsive layouts, and a more refined visual identity.
 
-The goal was to create a website that feels **minimal, distinctive, responsive, and easy to navigate**.
+The goal was to create a portfolio that feels minimal, distinctive, accessible, and easy to navigate across different screen sizes.
 
-## 🎨 Design Philosophy — Forest Noir
+## 🎨 Design System — Forest Noir
 
-The website follows a dark, nature-inspired design system built around deep greens, charcoal black, muted grey-green tones, and warm ivory.
+The portfolio follows a dark, nature-inspired design language using deep greens, charcoal black, muted grey-green tones, and warm ivory.
 
 | Color | Hex Code | Purpose |
 |:---|:---|:---|
 | Obsidian Black | `#0B0F0C` | Main backgrounds |
-| Deep Forest | `#13251B` | Secondary sections |
-| Forest Green | `#234A36` | Accent surfaces |
-| Moss Grey | `#687A61` | Subtle highlights |
-| Silver Sage | `#AEB7B0` | Borders and supporting text |
-| Warm Ivory | `#F2EFE6` | Primary text |
+| Deep Forest | `#13251B` | Secondary section backgrounds |
+| Forest Green | `#234A36` | Accent surfaces and highlights |
+| Moss Grey | `#687A61` | Subtle visual accents |
+| Silver Sage | `#AEB7B0` | Borders and supporting details |
+| Warm Ivory | `#F2EFE6` | Primary text and buttons |
 
 ## 🚀 Features
 
 <table>
   <tr>
     <td width="50%">
-      <h3>📱 Responsive Design</h3>
-      Layouts adapted for mobile, tablet, and desktop screens.
+      <h3>📱 Responsive Layout</h3>
+      Adapts to mobile, tablet, and desktop screens with carefully adjusted spacing and typography.
     </td>
     <td width="50%">
-      <h3>🧩 React Components</h3>
-      Reusable components keep the code organized and maintainable.
+      <h3>🧩 Modular Components</h3>
+      Separate React components keep the interface organized and maintainable.
     </td>
   </tr>
   <tr>
     <td width="50%">
       <h3>🧭 Active Navigation</h3>
-      The navigation highlights the section currently being viewed.
+      Highlights the current portfolio section while navigating and scrolling.
     </td>
     <td width="50%">
-      <h3>💻 Project Showcase</h3>
-      Real project screenshots, technology tags, live demos, and GitHub links.
+      <h3>💻 Selected Work</h3>
+      Displays project screenshots, technology tags, live links, and source-code links.
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <h3>📬 Contact Form</h3>
-      EmailJS integration for sending messages directly from the portfolio.
+      <h3>📬 Working Contact Form</h3>
+      Uses EmailJS to send messages, with loading, success, and error feedback.
     </td>
     <td width="50%">
-      <h3>🎯 Clean UI</h3>
-      Restrained spacing, subtle hover effects, and consistent typography.
+      <h3>✨ Refined UI</h3>
+      Minimal typography, subtle hover effects, and a consistent Forest Noir palette.
     </td>
   </tr>
 </table>
@@ -89,77 +89,29 @@ The website follows a dark, nature-inspired design system built around deep gree
 
 | Technology | Purpose |
 |:---|:---|
-| React.js | UI components and application structure |
+| React.js | Component-based user interface |
 | JavaScript (ES6+) | Application logic and interactivity |
-| Tailwind CSS v4 | Responsive styling and design utilities |
-| Vite | Development server and production build |
+| Tailwind CSS v4 | Responsive styling and UI design |
+| Vite | Development server and production builds |
 | EmailJS | Contact form email delivery |
-| Git & GitHub | Version control and source code management |
-| Vercel | Portfolio deployment |
-
-## 🗂️ Featured Projects
-
-The portfolio currently showcases these projects.
-
-### 01. 🎬 CineScope
-
-A movie discovery application for searching films, viewing movie details, and managing a personal watchlist.
-
-**Tech:** React.js · Tailwind CSS · TMDB API
-
-<a href="https://cine-scope-jet.vercel.app/">
-  <img src="Portfolio-website/public/images/projects/cinescope.png" alt="CineScope project preview" width="650" />
-</a>
-
-<p>
-  <a href="https://cine-scope-jet.vercel.app/">🌐 Live Demo</a> ·
-  <a href="https://github.com/sunnysaini2004/cine-Scope">💻 Source Code</a>
-</p>
-
-### 02. 📝 NotesWebApp
-
-A notes application that lets users create, view, and delete notes, with browser storage for persistence between sessions.
-
-**Tech:** React.js · Tailwind CSS · Local Storage
-
-<a href="https://sunnysaini2004.github.io/NotesWebApp/">
-  <img src="Portfolio-website/public/images/projects/noteswebapp.png" alt="NotesWebApp project preview" width="650" />
-</a>
-
-<p>
-  <a href="https://sunnysaini2004.github.io/NotesWebApp/">🌐 Live Demo</a> ·
-  <a href="https://github.com/sunnysaini2004/NotesWebApp">💻 Source Code</a>
-</p>
-
-### 03. 🌦️ Weather WebApp
-
-A responsive weather application that allows users to search for a city and view current weather information.
-
-**Tech:** HTML · CSS · JavaScript · Weather API
-
-<a href="https://sunnysaini2004.github.io/weather-WebApp/">
-  <img src="Portfolio-website/public/images/projects/weather-app.png" alt="Weather WebApp project preview" width="650" />
-</a>
-
-<p>
-  <a href="https://sunnysaini2004.github.io/weather-WebApp/">🌐 Live Demo</a> ·
-  <a href="https://github.com/sunnysaini2004/weather-WebApp">💻 Source Code</a>
-</p>
+| Git & GitHub | Version control and source management |
+| Vercel | Deployment and hosting |
 
 ## 🧭 Portfolio Sections
 
-| Section | Description |
+| Section | Overview |
 |:---|:---|
 | **Home** | Profile card, introduction, and social links |
-| **About** | Development mindset and personal principles |
-| **Projects** | Selected projects with previews and live links |
-| **Skills** | Technologies organized into skill categories |
+| **About** | Personal principles and development mindset |
+| **Projects** | Selected work with previews and useful links |
+| **Skills** | Technologies organized into categories |
 | **Academic** | Education and development journey |
-| **Contact** | Contact details and email message form |
+| **Contact** | Contact information and an interactive message form |
+| **Footer** | Developer credit and copyright |
 
 ## 📂 Project Structure
 
-The application is located inside the `Portfolio-website` directory of this repository.
+The React application is located inside the `Portfolio-website` directory.
 
 ```text
 sunnysainiPortfolio/
@@ -167,9 +119,6 @@ sunnysainiPortfolio/
     ├── public/
     │   └── images/
     │       └── projects/
-    │           ├── cinescope.png
-    │           ├── noteswebapp.png
-    │           └── weather-app.png
     ├── src/
     │   ├── assets/
     │   ├── components/
@@ -196,15 +145,13 @@ sunnysainiPortfolio/
     └── vite.config.js
 ```
 
-## ⚙️ Getting Started
-
-Want to run the project locally? Follow these steps.
+## ⚙️ Run Locally
 
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/)
 - npm
-- An EmailJS account if you want to use the contact form
+- An EmailJS account to configure the contact form
 
 ### 1. Clone the repository
 
@@ -212,7 +159,7 @@ Want to run the project locally? Follow these steps.
 git clone https://github.com/sunnysaini2004/sunnysainiPortfolio.git
 ```
 
-### 2. Navigate to the application folder
+### 2. Navigate to the portfolio directory
 
 ```bash
 cd sunnysainiPortfolio/Portfolio-website
@@ -234,16 +181,16 @@ VITE_EMAILJS_TEMPLATE_ID=your_emailjs_template_id
 VITE_EMAILJS_PUBLIC_KEY=your_emailjs_public_key
 ```
 
-Replace the example values with your own EmailJS configuration.
+Replace the example values with your EmailJS configuration.
 
-The EmailJS template should use these variables:
+The EmailJS template should use the following variables:
 
 - `{{name}}`
 - `{{email}}`
 - `{{subject}}`
 - `{{message}}`
 
-**Security note:** Only use the EmailJS public key in the frontend. Never expose your EmailJS private key or other server-side secrets. Keep `.env.local` out of Git commits.
+**Security note:** Use only the EmailJS public key in the frontend. Never expose a private key or server-side secret. Keep `.env.local` out of your Git commits.
 
 ### 5. Start the development server
 
@@ -251,9 +198,9 @@ The EmailJS template should use these variables:
 npm run dev
 ```
 
-Open the local URL printed in your terminal.
+Open the local URL displayed in your terminal.
 
-### 6. Build for production
+### 6. Create a production build
 
 ```bash
 npm run build
@@ -265,7 +212,7 @@ npm run build
 npm run preview
 ```
 
-### 8. Run code checks
+### 8. Run ESLint
 
 ```bash
 npm run lint
@@ -275,26 +222,30 @@ npm run lint
 
 The portfolio is deployed on Vercel.
 
-**Live website:**  
-https://sunnysaini-portfolio-git-main-sunny-264f.vercel.app/
+<div align="center">
 
-For deployment from this repository, configure `Portfolio-website` as the Vercel project root directory, use `npm run build` as the build command, and set `dist` as the output directory.
+<a href="https://sunny-portfolio-nine.vercel.app/">
+  <img src="https://img.shields.io/badge/OPEN_LIVE_WEBSITE-234A36?style=for-the-badge&logo=vercel&logoColor=white" alt="Open Live Website" />
+</a>
 
-Add the three EmailJS environment variables in your Vercel project settings and redeploy so the contact form can access its configuration in production.
+**Live URL:** https://sunny-portfolio-nine.vercel.app/
 
-## 👨‍💻 About Me
+</div>
 
-I'm **Sunny Saini**, an MCA student working toward becoming a full-stack developer.
+For deployment from this repository, configure `Portfolio-website` as the Vercel root directory, use `npm run build` as the build command, and set `dist` as the output directory.
 
-I enjoy turning ideas into usable web applications, learning through practical projects, and improving my development skills one step at a time.
+Add the three EmailJS environment variables in Vercel's project settings and redeploy to ensure the contact form works in production.
 
-I'm currently focused on building stronger frontend foundations while continuing to explore backend development.
+## 👨‍💻 Developer
 
-### Connect with me
+**Sunny Saini**  
+MCA Student | Aspiring Full-Stack Developer
 
-- 🌐 **Portfolio:** [Visit Website](https://sunnysaini-portfolio-git-main-sunny-264f.vercel.app/)
-- 💻 **GitHub:** [@sunnysaini2004](https://github.com/sunnysaini2004)
-- 📧 **Email:** [Contact Me](mailto:sainisunny2004a@gmail.com)
+I enjoy learning through practical development, building responsive web interfaces, and improving my skills one project at a time.
+
+- 🌐 Portfolio: [Visit Website](https://sunny-portfolio-nine.vercel.app/)
+- 💻 GitHub: [@sunnysaini2004](https://github.com/sunnysaini2004)
+- 📧 Email: [Contact Me](mailto:sainisunny2004a@gmail.com)
 
 ---
 
@@ -304,8 +255,6 @@ I'm currently focused on building stronger frontend foundations while continuing
 
 *Learn. Build. Improve.*
 
-If you find something interesting in this project, feel free to explore the source code.
-
-**Developed by Sunny Saini**
+**Designed & developed by Sunny Saini**
 
 </div>
