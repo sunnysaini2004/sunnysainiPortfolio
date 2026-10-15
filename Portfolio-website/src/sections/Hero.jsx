@@ -12,7 +12,7 @@ const socialLinks = [
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/",
+    href: "https://www.linkedin.com/in/sunnysaini2004/",
     icon: "linkedin",
   },
   {
