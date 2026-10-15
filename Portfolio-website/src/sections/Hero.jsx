@@ -149,7 +149,7 @@ function Hero() {
       {/* A restrained green glow adds depth without overpowering the content. */}
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute -right-40 -top-40 -z-10 h-[28rem] w-[28rem] rounded-full bg-(--color-forest-green) opacity-25 blur-[110px]"
+        className="pointer-events-none absolute -right-40 -top-40 -z-10 h-112 w-md rounded-full bg-(--color-forest-green) opacity-25 blur-[110px]"
       />
 
       <div className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-9 sm:gap-12 lg:grid-cols-[1.05fr_0.75fr] lg:gap-14">

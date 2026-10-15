@@ -1,4 +1,3 @@
-
 function SiteFooter() {
   // Keep the copyright year up to date automatically.
   const currentYear = new Date().getFullYear();
@@ -8,7 +7,7 @@ function SiteFooter() {
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 text-center sm:flex-row sm:text-left">
         {/* Keep the footer minimal and give credit to the developer. */}
         <p className="text-sm text-(--color-warm-ivory)/65">
-          Developed with care by{" "}
+          Developed by{" "}
           <span className="font-semibold text-(--color-silver-sage)">
             Sunny Saini
           </span>
