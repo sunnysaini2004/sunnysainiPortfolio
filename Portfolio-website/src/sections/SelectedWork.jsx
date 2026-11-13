@@ -3,11 +3,11 @@ import { projects } from "../data/projects";
 
 
 const projectImages = {
+  meditrail: `${import.meta.env.BASE_URL}images/projects/meditrail.png`,
   movies: `${import.meta.env.BASE_URL}images/projects/cinescope.png`,
   notes: `${import.meta.env.BASE_URL}images/projects/noteswebapp.png`,
   weather: `${import.meta.env.BASE_URL}images/projects/weather-app.png`,
 };
-
 function ProjectPreview({ project }) {
   const imageSrc = projectImages[project.type];
   const isNotesPreview = project.type === "notes";

@@ -2,6 +2,25 @@
 export const projects = [
   {
     number: "01",
+    title: "MediTrail",
+    category: "Healthcare Management System",
+    description:
+      "A full-stack healthcare platform that centralizes patient medical records and connects patients with authorized doctors through secure role-based access. Includes doctor-patient assignments, consultations, prescriptions, referrals, hospital settings, and audit logs.",
+    technologies: [
+      "React.js",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MySQL",
+      "JWT",
+    ],
+    liveUrl: "https://meditrail-frontend-rho.vercel.app/",
+    githubUrl: "https://github.com/sunnysaini2004/MedTrail",
+    type: "meditrail",
+    featured: true,
+  },
+  {
+    number: "02",
     title: "CineScope",
     category: "Movie Discovery",
     description:
@@ -10,10 +29,10 @@ export const projects = [
     liveUrl: "https://cine-scope-jet.vercel.app/",
     githubUrl: "https://github.com/sunnysaini2004/cine-Scope",
     type: "movies",
-    featured: true,
+    featured: false,
   },
   {
-    number: "02",
+    number: "03",
     title: "NotesWebApp",
     category: "Productivity",
     description:
@@ -25,7 +44,7 @@ export const projects = [
     featured: false,
   },
   {
-    number: "03",
+    number: "04",
     title: "Weather WebApp",
     category: "Weather Application",
     description:
